@@ -1,0 +1,46 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #3c4b63;
+}
+section {
+    padding: 200px 0px !important;
+}
+.navbar {
+    color: #FFFFFF !important;
+}
+.nav-bar-section{
+    background-color: #3c4b63;
+    color: #FFFFFF !important;
+}
+.navbar ul li a{
+    color: #FFFFFF;
+    margin: 2px 20px;
+}
+.hero-section {
+    background-color: #e7e1ff;
+    padding: 60px 0;
+    margin-bottom: 40px;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.btn-primary {
+    background-color: #3c4b63;
+    border-color: #3c4b63;
+}
+
+.btn-primary:hover {
+    background-color: #2b3549;
+    border-color: #2b3549;
+}
