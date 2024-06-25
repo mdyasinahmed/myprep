@@ -5,6 +5,9 @@ body {
 .color-bg{
     background-color: #f4f0ff;
 }
+.navbar button{
+    color: #FFFFFF !important;
+}
 .navbar {
     color: #FFFFFF !important;
 }
