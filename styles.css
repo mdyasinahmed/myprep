@@ -2,8 +2,8 @@ body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     color: #3c4b63;
 }
-section {
-    padding: 200px 0px !important;
+.color-bg{
+    background-color: #f4f0ff;
 }
 .navbar {
     color: #FFFFFF !important;
@@ -11,6 +11,10 @@ section {
 .nav-bar-section{
     background-color: #3c4b63;
     color: #FFFFFF !important;
+}
+.navbar-brand{
+    color: #FFFFFF;
+    font-weight: 700;
 }
 .navbar ul li a{
     color: #FFFFFF;
@@ -20,18 +24,27 @@ section {
     background-color: #e7e1ff;
     padding: 60px 0;
     margin-bottom: 40px;
+    padding: 200px 0px !important;
 }
 
-.section {
+.content-section {
     padding: 40px 0;
 }
-
+.roadmap-section{
+    padding: 40px 0;
+}
+.blog-section{
+    padding: 50px 0;
+}
+.blog-section-header{
+    margin-bottom: 35px;
+}
 .card {
     margin-bottom: 20px;
 }
 
 footer {
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 20px 0;
 }
 

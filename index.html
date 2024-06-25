@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interview Prep</title>
+    <title>myprep</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -14,7 +14,7 @@
     <header class="nav-bar-section">
         <div class="nav-bar-area container">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">Interview Prep</a>
+                <a class="navbar-brand" href="#">myprep.</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -38,7 +38,8 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
+    <main>
+        <!-- Hero Section -->
     <section class="hero-section text-center">
         <div class="container">
             <h1 class="display-4">Master Your Coding Interviews</h1>
@@ -48,13 +49,13 @@
     </section>
 
     <!-- Roadmap Section -->
-    <section id="roadmap-link" class="section">
+    <section id="roadmap-link" class="roadmap-section">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-6">
-                    <img src="roadmap-image.jpg" alt="Roadmap" class="img-fluid">
+                    <img src="assets/images/roadmap-image.png" alt="Roadmap" class="img-fluid">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 aligh">
                     <h2>Roadmap to Success</h2>
                     <p>Follow our comprehensive roadmap to cover all essential topics for coding interviews.</p>
                     <a href="roadmap.html" class="btn btn-primary">Deep Dive in Coding</a>
@@ -64,11 +65,11 @@
     </section>
 
     <!-- Content Section -->
-    <section class="section">
+    <section class="content-section color-bg">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-6 order-md-2">
-                    <img src="content-image.jpg" alt="Content" class="img-fluid">
+                    <img src="assets/images/content-image.png" alt="Content" class="img-fluid">
                 </div>
                 <div class="col-md-6 order-md-1">
                     <h2>Exclusive Content</h2>
@@ -80,47 +81,54 @@
     </section>
 
     <!-- Blog Section -->
-    <section class="section">
+    <section class="blog-section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="blog-image1.jpg" class="card-img-top" alt="Blog 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Blog Post 1</h5>
-                            <p class="card-text">Introduction to coding interview preparation.</p>
-                            <a href="blog.html" class="btn btn-primary">Read More...</a>
+            <div class="blog-section-header text-center">
+                <h2>Top Articles</h2>
+                <p>Read experts views for more efficiency.</p>
+            </div>
+            <div class="blog-section-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/images/blog-image1.jpg" class="card-img-top" alt="Blog 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Introduction to coding interview preparation.</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vitae delectus esse est, reiciendis blanditiis.</p>
+                                <a href="blog.html" class="btn btn-primary">Read More...</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="blog-image2.jpg" class="card-img-top" alt="Blog 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Blog Post 2</h5>
-                            <p class="card-text">Top 10 algorithms you must know.</p>
-                            <a href="blog.html" class="btn btn-primary">Read More...</a>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/images/blog-image2.jpg" class="card-img-top" alt="Blog 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Top 10 algorithms you must know.</h5>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi atque magnam fugit et enim fuga nulla, architecto corporis mollitia labore?</p>
+                                <a href="blog.html" class="btn btn-primary">Read More...</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="blog-image3.jpg" class="card-img-top" alt="Blog 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Blog Post 3</h5>
-                            <p class="card-text">How to handle tricky interview questions.</p>
-                            <a href="blog.html" class="btn btn-primary">Read More...</a>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/images/blog-image3.jpg" class="card-img-top" alt="Blog 3">
+                            <div class="card-body">
+                                <h5 class="card-title">How to handle tricky interview questions.</h5>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non aperiam delectus optio! Voluptas, earum illum.</p>
+                                <a href="blog.html" class="btn btn-primary">Read More...</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
-    <footer class="bg-light text-center text-lg-start">
-        <div class="container p-4">
-            <div class="text-center p-3">
+    <footer class="text-center text-lg-start color-bg">
+        <div class="container">
+            <div class="text-center">
                 &copy; 2024 Interview Prep. All rights reserved.
             </div>
         </div>
