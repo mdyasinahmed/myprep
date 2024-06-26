@@ -1,0 +1,22 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #3c4b63;
+}
+
+.content-card {
+    margin-bottom: 20px;
+}
+
+.content-card-body {
+    text-align: center;
+}
+
+
+.btn-primary {
+    background-color: #3c4b63;
+    border-color: #3c4b63;
+}
+
+.btn-primary:hover {
+    background-color: #d9e4f9 !important;
+}
